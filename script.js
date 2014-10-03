@@ -101,12 +101,8 @@ function numberWithCommas(number) {
 // PLEASE MAKE THIS
 // I don't want people being able to save pictures of our hot rod stock
 // If they want to see our cars they have to buy them first
-function disableRightClick(event) {
-	if(event.button==2)
-   {
-     alert(status);
-     return false;    
-   }
+function disableRightClick() {
+	
 }
 
 
